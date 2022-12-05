@@ -32,7 +32,7 @@ jobs:
         run: echo Hello, ${{ inputs.config-phrase }}!
 
   online-slurp-2:
-    if: on.workflow_dispatch
+    if: ${{ workflow_dispatch }}
     runs-on: ubuntu-latest
 
     steps:
