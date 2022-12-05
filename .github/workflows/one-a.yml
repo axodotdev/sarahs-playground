@@ -37,5 +37,5 @@ jobs:
 
   call-one-b:
     uses: ./.github/workflows/one-b.yml
-     with:
+    with:
       config-word: moon
