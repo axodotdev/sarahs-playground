@@ -15,4 +15,4 @@ jobs:
 
     steps:
       - name: Run a one-line script
-        run: echo Hello, ${{ inputs.config-path }}!
+        run: echo Hello, ${{ inputs.config-word }}!
