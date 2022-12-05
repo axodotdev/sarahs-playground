@@ -8,6 +8,12 @@ on:
         required: true
         type: string
 
+  workflow_dispatch:
+    inputs:
+      config-phrase:
+        required: true
+        type: string
+
 jobs:
   slurp:
     # The type of runner that the job will run on
@@ -16,3 +22,19 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello, ${{ inputs.config-word }}!
+
+  online-slurp:
+    if: ${{ inputs.config-phrase }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, ${{ inputs.config-phrase }}!
+
+  online-slurp-2:
+    if: ${{ on.workflow_dispatch }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, genius!
