@@ -1,0 +1,18 @@
+# Downstream file to call from one-a.yml
+name: one-b
+
+on:
+  workflow_call:
+    inputs:
+      config-word:
+        required: true
+        type: string
+
+jobs:
+  slurp:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, ${{ inputs.config-path }}!
