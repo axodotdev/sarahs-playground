@@ -30,11 +30,3 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello, ${{ inputs.config-phrase }}!
-
-  online-slurp-2:
-    if: ${{ workflow_dispatch }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Run a one-line script
-        run: echo Hello, genius!
