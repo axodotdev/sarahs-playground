@@ -18,3 +18,5 @@ and have a hamburger and a malted and buy
 an ugly NEW WORLD WRITING to see what the poets   
 in Ghana are doing these days
   I go on to the bank
+and Miss Stillwagon (first name Linda I once heard)     
+doesn’t even look up my balance for once in her life     
