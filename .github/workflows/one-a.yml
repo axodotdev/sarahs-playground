@@ -5,11 +5,10 @@ name: one-a
 
 on:
   # Push is for use with basic file iteration
-  push:
+  - push:
     branches: [ "main" ]
   # Pull request is the one we are most interested in
-  pull_request:
-    branches: "*"
+  - pull_request
 
 jobs:
   build:
