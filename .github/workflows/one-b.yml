@@ -16,7 +16,7 @@ on:
 
 jobs:
   slurp:
-    if: ${{ inputs.config-phrase }}
+    if: ${{ inputs.config-word }}
     runs-on: ubuntu-latest
 
     steps:

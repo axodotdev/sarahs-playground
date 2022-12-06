@@ -10,4 +10,7 @@ three days after Bastille day, yes
 it is 1959 and I go get a shoeshine  
 because I will get off the 4:19 in Easthampton  
 at 7:15 and then go straight to dinner  
- and I don’t know the people who will feed me  
+and I don’t know the people who will feed me  
+
+
+I walk up the muggy street beginning to sun  
