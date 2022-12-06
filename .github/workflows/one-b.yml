@@ -19,6 +19,7 @@ on:
 
 jobs:
   workflow-check:
+    runs-on: ubuntu-latest
     steps:
       - run: echo Bloop
 
