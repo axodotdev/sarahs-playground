@@ -42,7 +42,7 @@ jobs:
         run: echo Hello, ${{ inputs.config-word }}!
 
   online-slurp:
-    if: ${{ github.event_name == workflow_dispatch }}
+    if: ${{ github.event_name == "workflow_dispatch" }}
     runs-on: ubuntu-latest
 
     steps:
