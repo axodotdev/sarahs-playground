@@ -17,4 +17,5 @@ I walk up the muggy street beginning to sun
 and have a hamburger and a malted and buy  
 an ugly NEW WORLD WRITING to see what the poets   
 in Ghana are doing these days
-  I go on to the bank
+  I go on to the bank  
+and Miss Stillwagon (first name Linda I once heard)     
