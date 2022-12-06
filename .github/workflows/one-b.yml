@@ -11,8 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       config-phrase:
-        required: true
+        required: false
         type: string
+        default: anteater
 
 jobs:
   dump_contexts_to_log:
@@ -41,7 +42,7 @@ jobs:
         run: echo Hello, ${{ inputs.config-word }}!
 
   online-slurp:
-    if: ${{ inputs.config-phrase }}
+    if: ${{ github.event_name == workflow_dispatch }}
     runs-on: ubuntu-latest
 
     steps:
