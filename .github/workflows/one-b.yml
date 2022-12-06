@@ -8,7 +8,7 @@ on:
         required: true
         type: string
     secrets:
-      SARAHS_VERY_SECRET_SECRET
+      SARAHS_VERY_SECRET_SECRET:
         required: false
 
   workflow_dispatch:
