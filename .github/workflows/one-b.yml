@@ -21,7 +21,8 @@ jobs:
   workflow-check:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Bloop
+      - name: Check workflow vars
+        run: echo ${{ github.event.workflow_call }}
 
   slurp:
     if: ${{ inputs.config-word }}
