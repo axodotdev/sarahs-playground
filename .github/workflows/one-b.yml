@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: Run a one-line script
-        run: echo Seekrit is: butts
+        run: echo Seekrit is butts
 
   slurp:
     if: ${{ inputs.config-word }}
