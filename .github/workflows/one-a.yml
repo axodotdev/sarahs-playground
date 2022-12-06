@@ -9,7 +9,7 @@ on:
     branches: [ "main" ]
   # Pull request is the one we are most interested in
   pull_request:
-    branches: *
+    branches: "*"
 
 jobs:
   build:
