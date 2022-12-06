@@ -39,4 +39,3 @@ jobs:
     uses: ./.github/workflows/one-b.yml
     with:
       config-word: moon
-    secrets: inherit
