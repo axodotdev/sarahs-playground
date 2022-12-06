@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: beep-boop
-        uses: axodotdev/sarah-action@v3
+        uses: axodotdev/sarah-action@v4
