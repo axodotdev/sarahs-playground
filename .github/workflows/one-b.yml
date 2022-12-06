@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check workflow vars
-        run: echo Event name ${{ github }}
+        run: echo Event name ${{ toJSON(github) }}
 
   slurp:
     if: ${{ inputs.config-word }}
