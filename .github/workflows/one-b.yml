@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check workflow vars
-        run: echo Event name, ${{ github.event_name }}
+        run: echo Event name, ${{ github.workflow_call }}
 
   slurp:
     if: ${{ inputs.config-word }}
