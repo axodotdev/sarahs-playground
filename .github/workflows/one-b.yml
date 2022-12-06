@@ -38,7 +38,7 @@ jobs:
       - name: Dump matrix context
         run: echo '${{ toJSON(matrix) }}'
 
-  call-slurp:
+  call-trigger:
     if: ${{ inputs.config-word }}
     runs-on: ubuntu-latest
 
@@ -47,7 +47,7 @@ jobs:
         run: echo Hello, ${{ inputs.config-word }}!
 
   # We can use the event_name to put both actions 1b and 2 in the same file if we like
-  dispatch-slurp:
+  dispatch-trigger:
     if: ${{ github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
 
@@ -55,7 +55,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, ${{ inputs.config-phrase }}!
 
-  run-slurp:
+  run-trigger:
     if: ${{ github.event_name == 'workflow_run' }}
     runs-on: ubuntu-latest
 
