@@ -19,7 +19,8 @@ on:
 
 jobs:
   workflow-check:
-    run: echo Bloop
+    steps:
+      - run: echo Bloop
 
   slurp:
     if: ${{ inputs.config-word }}
