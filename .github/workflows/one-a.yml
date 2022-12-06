@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-  # call-one-b:
-  #   uses: ./.github/workflows/one-b.yml
-  #   with:
-  #     config-word: moon
+  call-one-b:
+    uses: ./.github/workflows/one-b.yml
+    with:
+      config-word: moon
