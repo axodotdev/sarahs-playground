@@ -2,12 +2,14 @@
 name: one-b
 
 on:
+  # Triggered directly by call from one-a
   workflow_call:
     inputs:
       config-word:
         required: true
         type: string
 
+  # Triggered by the webhook
   workflow_dispatch:
     inputs:
       config-phrase:
@@ -15,6 +17,7 @@ on:
         type: string
         default: anteater
 
+  # Secure trigger based on end of one-a
   workflow_run:
     workflows: ["one-a"]
     types:

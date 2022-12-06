@@ -30,7 +30,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-  label-push:
+  # Check that it's a PR triggered action
+  label-pull:
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     steps:
