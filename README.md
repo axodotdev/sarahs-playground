@@ -14,3 +14,4 @@ and I don’t know the people who will feed me
 
 
 I walk up the muggy street beginning to sun  
+and have a hamburger and a malted and buy  

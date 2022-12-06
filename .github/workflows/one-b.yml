@@ -15,6 +15,9 @@ on:
         type: string
 
 jobs:
+  secret-check:
+    run: echo Seekrit is: ${{ secrets.SARAHS_VERY_SECRET_SECRET }}
+
   slurp:
     if: ${{ inputs.config-word }}
     runs-on: ubuntu-latest
