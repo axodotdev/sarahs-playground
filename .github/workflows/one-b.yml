@@ -15,6 +15,11 @@ on:
         type: string
         default: anteater
 
+  workflow_run:
+    workflows: ["one-a"]
+    types:
+      - completed
+
 jobs:
   dump_contexts_to_log:
     runs-on: ubuntu-latest
@@ -33,7 +38,7 @@ jobs:
       - name: Dump matrix context
         run: echo '${{ toJSON(matrix) }}'
 
-  slurp:
+  call-slurp:
     if: ${{ inputs.config-word }}
     runs-on: ubuntu-latest
 
@@ -42,10 +47,18 @@ jobs:
         run: echo Hello, ${{ inputs.config-word }}!
 
   # We can use the event_name to put both actions 1b and 2 in the same file if we like
-  online-slurp:
+  dispatch-slurp:
     if: ${{ github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Run a one-line script
         run: echo Hello, ${{ inputs.config-phrase }}!
+
+  run-slurp:
+    if: ${{ github.event_name == 'workflow_run' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, link!
