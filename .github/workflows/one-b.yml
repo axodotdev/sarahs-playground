@@ -16,7 +16,11 @@ on:
 
 jobs:
   secret-check:
-    run: echo Seekrit is: ${{ secrets.SARAHS_VERY_SECRET_SECRET }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Seekrit is: ${{ secrets.SARAHS_VERY_SECRET_SECRET }}
 
   slurp:
     if: ${{ inputs.config-word }}
