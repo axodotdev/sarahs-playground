@@ -13,9 +13,9 @@ on:
 
 jobs:
   build:
+    # Given action, just nice as a reminder for now
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
@@ -30,7 +30,15 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+  label-push:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Just a check
+        run: echo I was a PR
+
   call-one-b:
+    # One of three job triggers for the big file (one-b)
     uses: ./.github/workflows/one-b.yml
     with:
       config-word: moon
