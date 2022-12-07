@@ -25,3 +25,4 @@ for Patsy with drawings by Bonnard although I do   
 think of Hesiod, trans. Richmond Lattimore or   
 Brendan Behan’s new play or _Le Balcon_ or _Les Nègres_  
 of Genet, but I don’t, I stick with Verlaine  
+after practically going to sleep with quandariness  
