@@ -6,7 +6,7 @@ name: one-a
 on:
   # Push is for use with basic file iteration
   push:
-    branches: [ "main" ]
+    branches: [ "invented" ]
   # Pull request is the one we are most interested in
   pull_request:
     branches: '**'
