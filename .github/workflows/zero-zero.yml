@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: I can access Github context
         run: echo '${{ toJSON(github) }}'
-      - uses: actions/checkout@v3
-      - id: beep-boop
-        uses: axodotdev/sarah-action@main
+      # - uses: actions/checkout@v3
+      # - id: beep-boop
+      #   uses: axodotdev/sarah-action@main
