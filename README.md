@@ -23,3 +23,4 @@ doesn’t even look up my balance for once in her life   
 and in the GOLDEN GRIFFIN I get a little Verlaine   
 for Patsy with drawings by Bonnard although I do   
 think of Hesiod, trans. Richmond Lattimore or   
+Brendan Behan’s new play or _Le Balcon_ or _Les Nègres_  
