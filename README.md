@@ -27,4 +27,5 @@ Brendan Behan’s new play or _Le Balcon_ or _Les Nègres_
 of Genet, but I don’t, I stick with Verlaine  
 after practically going to sleep with quandariness  
 
- and for Mike I just stroll into the PARK LANE  
+and for Mike I just stroll into the PARK LANE  
+Liquor Store and ask for a bottle of Strega and   
