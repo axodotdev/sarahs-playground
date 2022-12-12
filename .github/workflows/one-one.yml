@@ -14,3 +14,8 @@ jobs:
     steps:
       - name: Run a one-line script
         run: echo Hello, link!
+
+      - name: again, but different
+        uses: axodotdev/sarah-action@two-parter
+        with:
+          event_name: ${{ github.event_name }}
