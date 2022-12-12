@@ -1,5 +1,3 @@
-name: zero-zero
-
 on: [push]
 
 jobs:
@@ -11,4 +9,6 @@ jobs:
         run: echo '${{ toJSON(github) }}'
       - uses: actions/checkout@v3
       - id: beep-boop
-        uses: axodotdev/sarah-action@two-parter
+        uses: axodotdev/sarah-action@main
+        with:
+          event_name: ${{ github.event_name }}
