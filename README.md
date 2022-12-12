@@ -30,3 +30,4 @@ after practically going to sleep with quandariness
 and for Mike I just stroll into the PARK LANE  
 Liquor Store and ask for a bottle of Strega and
 then I go back where I came from to 6th Avenue  
+and the tobacconist in the Ziegfeld Theatre and   
