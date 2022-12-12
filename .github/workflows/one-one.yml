@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Run a one-line script
+      - name: Link in one-one
         run: echo Hello, link!
 
       - name: again, but different
