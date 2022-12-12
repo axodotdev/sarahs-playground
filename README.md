@@ -31,3 +31,4 @@ and for Mike I just stroll into the PARK LANE
 Liquor Store and ask for a bottle of Strega and
 then I go back where I came from to 6th Avenue  
 and the tobacconist in the Ziegfeld Theatre and   
+casually ask for a carton of Gauloises and a carton  
