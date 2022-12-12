@@ -16,6 +16,6 @@ jobs:
         run: echo Hello, link!
 
       - name: again, but different
-        uses: axodotdev/sarah-action@two-parter
+        uses: axodotdev/sarah-action@main
         with:
           event_name: ${{ github.event_name }}
