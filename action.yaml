@@ -1,0 +1,9 @@
+name: Proving a point
+description: What it says on the tin.
+
+runs:
+  using: "composite"
+  steps:
+    - name: Log hello
+      run: echo Hello!
+      shell: bash
