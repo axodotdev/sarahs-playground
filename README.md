@@ -32,3 +32,4 @@ Liquor Store and ask for a bottle of Strega and
 then I go back where I came from to 6th Avenue  
 and the tobacconist in the Ziegfeld Theatre and   
 casually ask for a carton of Gauloises and a carton  
+of Picayunes, and a NEW YORK POST with her face on it
