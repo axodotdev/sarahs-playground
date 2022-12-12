@@ -1,0 +1,16 @@
+name: one-one
+
+on:
+  workflow_run:
+    workflows: ["zero-zero"]
+    types:
+      - completed
+
+jobs:
+  run-trigger:
+    # if: ${{ github.event_name == 'workflow_run' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a one-line script
+        run: echo Hello, link!
