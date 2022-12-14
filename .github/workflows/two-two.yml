@@ -1,0 +1,21 @@
+# Calls dispatch
+name: two-two
+
+on:
+  workflow_dispatch:
+    inputs:
+      config-phrase:
+        required: false
+        type: string
+        default: anteater
+
+jobs:
+  call-into-one-c:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use one-c
+        uses: axodotdev/sarah-action@main
+        with:
+          config-phrase: ${{ inputs.config-phrase }}
+          event_name: ${{ github.event_name }}
